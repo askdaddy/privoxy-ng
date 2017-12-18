@@ -1,6 +1,0 @@
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/seven/git/privoxy-3.0.26
-[STATUS]find Zlib: TRUE
-Zlib include dirs: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include
--- Configuring done
--- Generating done
--- Build files have been written to: /Users/seven/git/privoxy-3.0.26/cmake-build-debug
