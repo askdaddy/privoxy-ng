@@ -1,0 +1,46 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:546: checking for gcc
+configure:659: checking whether the C compiler (gcc  ) works
+configure:675: gcc -o conftest    conftest.c  1>&5
+configure:672:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+main(){return(0);}
+^
+1 warning generated.
+configure:701: checking whether the C compiler (gcc  ) is a cross-compiler
+configure:706: checking whether we are using GNU C
+configure:715: gcc -E conftest.c
+configure:734: checking whether gcc accepts -g
+configure:768: checking for ranlib
+configure:798: checking how to run the C preprocessor
+configure:819: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:878: checking for ANSI C header files
+configure:891: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:958: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:953:67: warning: implicitly declaring library function 'exit' with type 'void (int) __attribute__((noreturn))' [-Wimplicit-function-declaration]
+if (XOR (islower (i), ISLOWER (i)) || toupper (i) != TOUPPER (i)) exit(2);
+                                                                  ^
+configure:953:67: note: include the header <stdlib.h> or explicitly provide a declaration for 'exit'
+1 warning generated.
+configure:985: checking for limits.h
+configure:995: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1024: checking for working const
+configure:1078: gcc -c -g -O2  conftest.c 1>&5
+configure:1099: checking for size_t
+configure:1136: checking for bcopy
+configure:1164: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1136: checking for memmove
+configure:1164: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1148:6: warning: incompatible redeclaration of library function 'memmove' [-Wincompatible-library-redeclaration]
+char memmove();
+     ^
+configure:1148:6: note: 'memmove' is a builtin with type 'void *(void *, const void *, unsigned long)'
+1 warning generated.
+configure:1136: checking for strerror
+configure:1164: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1148:6: warning: incompatible redeclaration of library function 'strerror' [-Wincompatible-library-redeclaration]
+char strerror();
+     ^
+configure:1148:6: note: 'strerror' is a builtin with type 'char *(int)'
+1 warning generated.

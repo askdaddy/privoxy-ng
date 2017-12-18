@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="privoxy"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/seven/git/privoxy-3.0.26/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/seven/git/privoxy-3.0.26/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/seven/git/privoxy-3.0.26/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/seven/git/privoxy-3.0.26/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/seven/git/privoxy-3.0.26/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/seven/git/privoxy-3.0.26/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/seven/git/privoxy-3.0.26/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/seven/git/privoxy-3.0.26/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/seven/git/privoxy-3.0.26/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/seven/git/privoxy-3.0.26/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/seven/git/privoxy-3.0.26/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/seven/git/privoxy-3.0.26/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/seven/git/privoxy-3.0.26/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/seven/git/privoxy-3.0.26/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/seven/git/privoxy-3.0.26/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="privoxy">
+				<Option output="/Users/seven/git/privoxy-3.0.26/cmake-build-debug/privoxy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/seven/git/privoxy-3.0.26/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/seven/git/privoxy-3.0.26/cmake-build-debug/Makefile&quot;  VERBOSE=1 privoxy"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/seven/git/privoxy-3.0.26/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/seven/git/privoxy-3.0.26/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/seven/git/privoxy-3.0.26/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="privoxy/fast">
+				<Option output="/Users/seven/git/privoxy-3.0.26/cmake-build-debug/privoxy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/seven/git/privoxy-3.0.26/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/seven/git/privoxy-3.0.26/cmake-build-debug/Makefile&quot;  VERBOSE=1 privoxy/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/seven/git/privoxy-3.0.26/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/seven/git/privoxy-3.0.26/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/seven/git/privoxy-3.0.26/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/actionlist.h">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/actions.c">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/actions.h">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/amiga.c">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/amiga.h">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/cgi.c">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/cgi.h">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/cgiedit.c">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/cgiedit.h">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/cgisimple.c">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/cgisimple.h">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/client-tags.c">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/client-tags.h">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/config.h">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/cygwin.h">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/deanimate.c">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/deanimate.h">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/encode.c">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/encode.h">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/errlog.c">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/errlog.h">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/filters.c">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/filters.h">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/gateway.c">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/gateway.h">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/jbsockets.c">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/jbsockets.h">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/jcc.c">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/jcc.h">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/list.c">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/list.h">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/loadcfg.c">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/loadcfg.h">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/loaders.c">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/loaders.h">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/miscutil.c">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/miscutil.h">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/parsers.c">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/parsers.h">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/pcre/chartables.c">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/pcre/config.h">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/pcre/get.c">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/pcre/internal.h">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/pcre/maketables.c">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/pcre/pcre.c">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/pcre/pcre.h">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/pcre/pcreposix.c">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/pcre/pcreposix.h">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/pcre/study.c">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/pcrs.c">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/pcrs.h">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/project.h">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/ssplit.c">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/ssplit.h">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/strptime.h">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/urlmatch.c">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/urlmatch.h">
+			<Option target="privoxy"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/seven/git/privoxy-3.0.26/config.h.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

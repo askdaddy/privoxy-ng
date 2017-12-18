@@ -1,0 +1,3 @@
+/Users/seven/git/privoxy-3.0.26/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/seven/git/privoxy-3.0.26/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/seven/git/privoxy-3.0.26/cmake-build-debug/CMakeFiles/privoxy.dir
